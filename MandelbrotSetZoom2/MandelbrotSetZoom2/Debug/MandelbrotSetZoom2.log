@@ -1,0 +1,24 @@
+﻿Build started 12/10/2015 4:42:26 PM.
+     1>Project "C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\MandelbrotSetZoom2\MandelbrotSetZoom2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\viral\documents\visual studio 2012\projects\mandelbrotsetzoom2\mandelbrotsetzoom2\main.cpp(129): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+     1>c:\users\viral\documents\visual studio 2012\projects\mandelbrotsetzoom2\mandelbrotsetzoom2\main.cpp(213): warning C4244: 'argument' : conversion from 'GLdouble' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\Debug\MandelbrotSetZoom2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\Debug\MandelbrotSetZoom2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\Debug\MandelbrotSetZoom2.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\main.obj
+         MandelbrotSetZoom2.vcxproj -> C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\Debug\MandelbrotSetZoom2.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\viral\Documents\Visual Studio 2012\Projects\MandelbrotSetZoom2\MandelbrotSetZoom2\MandelbrotSetZoom2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58
